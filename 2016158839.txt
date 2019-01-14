@@ -1,5 +1,11 @@
 Date: 14/1/2019
-Time: 1.00
+Time: 5.30PM
+Second report of the day
+1. Follow the tutorial from https://ionicframework.com/docs/intro/tutorial/
+2. Install the depencies
+
+Date: 14/1/2019
+Time: 1.00PM
 First report of the day
 1. Listen to a short brief given by Puan Azura
 2. Do some research about the given task
