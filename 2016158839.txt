@@ -1,3 +1,10 @@
+Date: 15/1/2019
+Time: 1.00PM
+First report of the day
+1. Apply the other types of Ionic template (tab, super)
+2. Try to make three tabs in a blank template
+3. In progress of making more tab
+
 Date: 14/1/2019
 Time: 5.30PM
 Second report of the day
