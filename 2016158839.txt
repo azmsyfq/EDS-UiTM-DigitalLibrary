@@ -1,3 +1,12 @@
+Date: 17/1/2019
+Time: 1.00PM
+First report of the day
+1. Make the social login load faster by adding some codes
+2. Make the app to be able to login in multiple account with same email
+3. Solve the problem, button doesn't dissappear when another button is clicked
+4. Customize the button with icon provided by ionic
+5. Able to create login app for facebook and google
+
 Date: 16/1/2019
 Time: 5.30PM
 Second report of the day
