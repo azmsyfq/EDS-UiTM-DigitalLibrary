@@ -1,7 +1,13 @@
+Date: 18/1/2019
+Time: 12.38PM
+First report of the day
+1. Troubleshoot the logout problem (doesn't completely logout)
+2. Do research about ionic cards
+
 Date: 17/1/2019
 Time: 5.30PM
 Second report of the day
-1. Do research about Firebase Authenication
+1. Do research about Firebase Authentication
 
 Date: 17/1/2019
 Time: 1.00PM
