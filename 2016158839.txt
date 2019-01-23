@@ -1,4 +1,9 @@
 Date: 23/1/2019
+Time: 5.30PM
+Second report of the day
+1. Find alternate ways of enabling Firebase Authentication to logout entirely
+
+Date: 23/1/2019
 Time: 1.00PM
 First report of the day
 1. Use another login method without the authentication of firbase
