@@ -1,3 +1,9 @@
+Date: 23/1/2019
+Time: 1.00PM
+First report of the day
+1. Use another login method without the authentication of firbase
+2. Login successful while logout still in progress
+
 Date: 22/1/2019
 Time: 5.30PM
 Second report of the day
