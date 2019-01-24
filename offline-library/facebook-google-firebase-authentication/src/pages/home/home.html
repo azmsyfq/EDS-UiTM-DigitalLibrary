@@ -1,0 +1,28 @@
+<ion-header style="text-align:center;">
+  <ion-navbar>
+    <ion-title>
+      FIREBASE SOCIAL AUTHENTICATION
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content style="text-align:center">
+  <ion-grid padding style="height: 100%">
+    <ion-row justify-content-center align-items-center style="width: 100%">
+      <button ion-button (click)="loginWithFacebook()" *ngIf="!provider.loggedin"><ion-icon name="logo-facebook"></ion-icon>&nbsp;&nbsp;Login With Facebook</button>
+      <button color="secondary" ion-button (click)="loginWithGoogle()" *ngIf="!provider.loggedin"><ion-icon name="logo-google"></ion-icon>&nbsp;&nbsp;Login With Google</button>
+      <ion-card style="text-align:center" style="width:20%" *ngIf="provider.loggedin">
+        <img src="{{ provider.profilePicture }}">
+          <ion-card-content>
+            <ion-card-title>
+             {{ provider.name }}
+            </ion-card-title>
+            <p>
+             {{ provider.email }}
+            </p>
+          </ion-card-content>
+        <button color="danger" ion-button (click)="logout()" block *ngIf="provider.loggedin"><ion-icon name="exit"></ion-icon>&nbsp;&nbsp;Logout</button>
+      </ion-card>
+    </ion-row>
+  </ion-grid>
+</ion-content>

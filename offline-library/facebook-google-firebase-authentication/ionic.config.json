@@ -1,0 +1,7 @@
+{
+  "name": "logtut",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
