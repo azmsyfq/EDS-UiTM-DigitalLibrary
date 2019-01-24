@@ -1,9 +1,3 @@
-Date: 24/1/2019
-Time: 1.00PM
-First report of the day
-1. Research about new task given, unsecured login
-2. Experiment SQLite as offline local storage
-
 Date: 23/1/2019
 Time: 5.30PM
 Second report of the day
