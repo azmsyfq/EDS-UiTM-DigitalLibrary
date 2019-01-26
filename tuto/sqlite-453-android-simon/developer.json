@@ -1,0 +1,16 @@
+{
+    "structure":{
+        "tables":{
+            "developer":"([id] PRIMARY KEY, [name], [description])"
+        }
+    },
+    "data":{
+          "inserts": {
+             "developer": [
+                {"id":1,"name":"Angular","description":"Front-end development framwork created by Google"},
+                {"id":2,"name":"TypeScript","description":"Superset of JavaScript"},
+                {"id":3,"name":"HTML5","description":"A collection of different JavaScript API's and new HTML markup syntax"}
+             ]
+          }
+    }
+ }
