@@ -1,0 +1,7 @@
+{
+  "name": "login-microcode",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
