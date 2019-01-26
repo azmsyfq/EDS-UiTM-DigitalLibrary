@@ -1,0 +1,7 @@
+{
+  "name": "sqlite-queries-simon",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
