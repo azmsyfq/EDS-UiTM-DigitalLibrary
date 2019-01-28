@@ -1,4 +1,9 @@
 Date: 28/1/2019
+Time: 5.30PM
+Second report of the day
+1. Try to build up the flow of the app
+
+Date: 28/1/2019
 Time: 1.30PM
 First report of the day
 1. Create CSV database which is downloadable to excel
