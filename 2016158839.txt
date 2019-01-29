@@ -1,3 +1,9 @@
+Date: 29/1/2019
+Time: 1.00PM
+First report of the day
+1. Set up a form for Admin to view the user list using FABs
+2. In progress of setting up login form to send and get data
+
 Date: 28/1/2019
 Time: 5.30PM
 Second report of the day
