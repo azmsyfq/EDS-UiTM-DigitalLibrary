@@ -1,6 +1,11 @@
+Date: 30/1/2019
+Time: 1.00PM
+First report of the day
+1. In progress of making the database to save and retrieve input data 
+
 Date: 29/1/2019
 Time: 5.30PM
-First report of the day
+Second report of the day
 1. In progress of making the login and register flow
 
 Date: 29/1/2019
