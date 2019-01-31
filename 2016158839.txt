@@ -1,4 +1,9 @@
 Date: 31/1/2019
+Time: 5.30PM
+Second report of the day
+1. Still have problem with database
+
+Date: 31/1/2019
 Time: 1.00PM
 First report of the day
 1. Login, register, and profile page is done (problem: can only write and read one user)
