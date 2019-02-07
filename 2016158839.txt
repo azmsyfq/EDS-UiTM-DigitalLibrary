@@ -1,4 +1,9 @@
 Date: 7/2/2019
+Time: 5.30PM
+Second report of the day
+1. Still in progress of following tutorial (got errors in providers)
+
+Date: 7/2/2019
 Time: 1.00PM
 First report of the day
 1. Try to apply pouchdb for database but got into errors
