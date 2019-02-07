@@ -1,3 +1,19 @@
+Date: 7/2/2019
+Time: 1.00PM
+First report of the day
+1. Try to apply pouchdb for database but got into errors
+2. In progress of retrying the sqlite tutorial video
+
+Date: 1/2/2019
+Time: 5.30PM
+Second report of the day
+1. Try some tutorial related to sqlite (pouchdb and couchdb) 
+
+Date: 1/2/2019
+Time: 12.30PM
+First report of the day
+1. Do further research about sqlite 
+
 Date: 31/1/2019
 Time: 5.30PM
 Second report of the day
