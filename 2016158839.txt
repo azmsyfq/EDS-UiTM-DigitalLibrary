@@ -1,3 +1,13 @@
+Date: 8/2/2019
+Time: 5.30PM
+Second report of the day
+1. In progress with troubleshooting (problems with npm)
+
+Date: 8/2/2019
+Time: 12.30PM
+First report of the day
+1. Try Ionic 4
+
 Date: 7/2/2019
 Time: 5.30PM
 Second report of the day
