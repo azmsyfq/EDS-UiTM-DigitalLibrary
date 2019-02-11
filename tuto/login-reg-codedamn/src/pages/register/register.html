@@ -1,0 +1,46 @@
+
+
+
+<ion-content text-center >
+  <ion-title></ion-title>
+    
+  <ion-list>
+    <ion-img width="150px" height="150px" [src]="picToView"></ion-img>
+
+    <ion-fab ><button color="light" ion-fab><ion-icon name="aperture"></ion-icon></button>
+      <ion-fab-list side="right">
+        <button ion-fab (click)="changeViewMan()"><ion-icon name="man" ></ion-icon></button>
+        <button ion-fab (click)="changeViewWoman()"><ion-icon name="woman"></ion-icon></button>
+        <button ion-fab (click)="changeViewCat()"><ion-icon name="logo-octocat"></ion-icon></button>
+      </ion-fab-list>
+    </ion-fab>
+  </ion-list>
+
+  <ion-list>
+  
+      
+  
+
+      
+
+  <ion-item>
+    <ion-label floating>Username</ion-label>
+    <ion-input type="text" [(ngModel)]="user"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label floating>Confirm Username</ion-label>
+    <ion-input type="text" [(ngModel)]="name"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label floating>Email</ion-label>
+    <ion-input type="text" [(ngModel)]="email" ></ion-input>
+  </ion-item>
+  
+  <div padding>
+    <button ion-button color="primary" block (click)="register()">Register</button>
+
+
+<p>...or<button clear (click)="loginNow()">login here</button></p>
+</div>
+</ion-list>
+</ion-content>

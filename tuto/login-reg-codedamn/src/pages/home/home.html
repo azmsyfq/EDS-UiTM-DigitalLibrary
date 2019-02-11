@@ -1,0 +1,42 @@
+
+<ion-fab end>
+    <button mini ion-fab color="light"><ion-icon name="finger-print"></ion-icon></button>
+    <ion-fab-list side="left">
+        <ion-card text-center>
+            <ion-card-header>
+              Admin
+            </ion-card-header>
+            <ion-card-content>
+                <ion-list>
+                    <ion-item>
+                        <ion-label floating>ID</ion-label>
+                      <ion-input margin-left floating maxlength="4"  type="password" [(ngModel)]="password"></ion-input>
+                    </ion-item>
+                  </ion-list>
+                  <br />
+                  <button ion-button block (click)="admin()">Enter</button>
+            </ion-card-content>
+          </ion-card>
+    </ion-fab-list>
+  </ion-fab>
+
+
+
+<ion-content text-center padding>
+    <ion-title></ion-title>
+
+      
+  <ion-list>
+  <ion-item>
+    <ion-label floating>Username</ion-label>
+    <ion-input [(ngModel)]="inputText"></ion-input>
+  </ion-item>
+
+  <div padding>
+    <button ion-button color="primary" block (click)="signIn()">Login</button>
+  
+
+<p>...or<button clear (click)="registerNow()">register here for new user</button></p>
+</div>
+</ion-list>
+</ion-content>

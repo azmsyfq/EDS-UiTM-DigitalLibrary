@@ -1,0 +1,7 @@
+{
+  "name": "login-reg-codedamn",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
