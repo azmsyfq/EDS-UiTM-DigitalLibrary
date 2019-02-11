@@ -1,0 +1,20 @@
+<ion-content>
+
+
+
+
+  <ion-fab><button color="light" ion-fab><ion-icon name="aperture"></ion-icon></button>
+  
+  <ion-fab-list side="right">
+    <button ion-fab (click)="changeViewMan()"><ion-icon name="man" ></ion-icon></button>
+    <button ion-fab (click)="changeViewWoman()"><ion-icon name="woman"></ion-icon></button>
+    <button ion-fab (click)="changeViewCat()"><ion-icon name="logo-octocat"></ion-icon></button>
+  </ion-fab-list>
+</ion-fab>
+
+<ion-img width="300px" height="300px" [src]="picToView"></ion-img>
+
+
+
+
+</ion-content>
