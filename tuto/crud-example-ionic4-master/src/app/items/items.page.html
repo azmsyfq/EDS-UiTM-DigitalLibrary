@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Items overview</ion-title>
+
+    <ion-buttons slot="end">
+      <ion-icon slot="icon-only" name="add" (click)="add()" color="primary" *ngIf="!isProcessing"></ion-icon>
+
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <p class="alert alert-warning" role="alert" *ngIf="isProcessing">
+    <ion-spinner></ion-spinner>
+    Please wait..
+  </p>
+
+  <p *ngIf="!hasItems(items$ | async) && !isProcessing" class="alert alert-danger" role="alert">
+    <Strong>You don't have any items.</Strong><br>
+    Try adding one.
+  </p>
+
+  <app-items-list></app-items-list>
+</ion-content>
+
+<ion-fab vertical="bottom" horizontal="end" slot="fixed">
+  <ion-fab-button (click)="refresh()">
+    <ion-icon name="refresh"></ion-icon>
+  </ion-fab-button>
+</ion-fab>

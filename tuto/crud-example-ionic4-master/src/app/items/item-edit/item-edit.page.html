@@ -1,0 +1,35 @@
+<ion-header>
+
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+        <ion-back-button></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>Item edit</ion-title>
+
+    <ion-buttons slot="end">
+      <ion-icon slot="icon-only" name="trash" (click)='delete()' *ngIf="item"  color="danger"></ion-icon>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding> 
+
+  <p class="alert alert-warning" role="alert"  *ngIf="isProcessing">
+      <ion-spinner></ion-spinner>
+      Please wait..
+  </p>
+
+  <div *ngIf="hasNoItem">
+      <h1>Cannot find item</h1>
+
+      <p class="alert alert-danger" role="alert">
+        <strong>Error!</strong>
+        <br>Need food!
+      </p>
+  </div>
+
+  <app-item-add-edit [item]="item" *ngIf="item && !isProcessing" (formSubmitEvent)="formSubmitEvent($event)"></app-item-add-edit>
+</ion-content>

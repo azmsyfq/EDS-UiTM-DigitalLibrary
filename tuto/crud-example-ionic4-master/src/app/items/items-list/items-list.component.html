@@ -1,0 +1,3 @@
+<ion-list  *ngIf="items$ | async as items">
+  <app-items-list-item *ngFor="let item of items" [item]="item"></app-items-list-item>
+</ion-list>
