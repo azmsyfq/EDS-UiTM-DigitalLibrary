@@ -1,5 +1,5 @@
-import { Component, OnInit, Input, Output,EventEmitter } from '@angular/core';
-import { Validators, AbstractControl, FormBuilder, FormGroup, FormControl , Validator , FormsModule} from '@angular/forms';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Validators, AbstractControl, FormBuilder, FormGroup, FormControl, Validator, FormsModule } from '@angular/forms';
 
 import { CheckRequiredField } from '../../_shared/helpers/form.helper';
 
@@ -21,7 +21,7 @@ export class ItemAddEditComponent implements OnInit {
 
   isProcessing: Boolean = false;
 
-  checkField  = CheckRequiredField;
+  checkField = CheckRequiredField;
 
   constructor(
     private itemsService: ItemsService
@@ -33,7 +33,7 @@ export class ItemAddEditComponent implements OnInit {
 
   delete() {
     if (this.item) {
-      this.isProcessing  = true;
+      this.isProcessing = true;
       this.itemsService.delete(this.item.id).subscribe(
         (status) => {
           this.formSubmitEvent.next('delete');
@@ -44,14 +44,14 @@ export class ItemAddEditComponent implements OnInit {
 
   onSubmit($event) {
 
-    this.isProcessing  = true;
+    this.isProcessing = true;
 
     if (this.itemForm.valid) {
-        if (!this.item) {
-          this.doAddItem();
-        } else {
-          this.doUpdateItem();
-        }
+      if (!this.item) {
+        this.doAddItem();
+      } else {
+        this.doUpdateItem();
+      }
     }
   }
 
@@ -64,25 +64,25 @@ export class ItemAddEditComponent implements OnInit {
       (result) => {
         this.itemForm.reset();
         this.formSubmitEvent.next('add');
-        this.isProcessing  = false;
+        this.isProcessing = false;
       }
     );
   }
 
   private doUpdateItem() {
-    this.itemsService.update(this.itemForm.value.id , this.itemForm.value).subscribe(
+    this.itemsService.update(this.itemForm.value.id, this.itemForm.value).subscribe(
       (result) => {
         if (result) {
           this.formSubmitEvent.next('update');
           this.reset();
         }
-        this.isProcessing  = false;
+        this.isProcessing = false;
       }
     );
   }
 
   private reset() {
-    this.item  = null;
+    this.item = null;
     this.itemForm.reset();
     this.initForm();
   }

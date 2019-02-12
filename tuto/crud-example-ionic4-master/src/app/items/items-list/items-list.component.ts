@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable, Subject,throwError, of , BehaviorSubject} from 'rxjs';
+import { Observable, Subject, throwError, of, BehaviorSubject } from 'rxjs';
 
 import { ItemsService } from '../_services/items.service';
 import { ItemModel } from '../_models/item.model';
@@ -18,7 +18,7 @@ export class ItemsListComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.items$  = this.itemsService.items$;
+    this.items$ = this.itemsService.items$;
   }
 
 }

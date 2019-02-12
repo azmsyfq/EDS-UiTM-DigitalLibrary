@@ -31,7 +31,7 @@ import { ItemsService } from './items/_services/items.service';
     StatusBar,
     SplashScreen,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
-    { provide: APP_BASE_HREF, useValue: '/'},
+    { provide: APP_BASE_HREF, useValue: '/' },
     {
       provide: HTTP_INTERCEPTORS,
       useClass: FakeBackendInterceptor,
@@ -41,4 +41,4 @@ import { ItemsService } from './items/_services/items.service';
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }
