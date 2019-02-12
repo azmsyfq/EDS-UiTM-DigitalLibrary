@@ -1,4 +1,9 @@
 Date: 12/2/2019
+Time: 5.30PM
+Second report of the day
+1. In progress of combining the crud and the login app 
+
+Date: 12/2/2019
 Time: 1.00PM
 First report of the day
 1. In progress of setting up the login app for Ionic 4
