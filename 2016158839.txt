@@ -1,4 +1,9 @@
 Date: 13/2/2019
+Time: 5.30PM
+Second report of the day
+1. In progresss of finding they way to change sqlite location
+
+Date: 13/2/2019
 Time: 1.00PM
 First report of the day
 1. Do research about the new tutorial given
