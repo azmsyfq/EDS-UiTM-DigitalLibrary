@@ -1,3 +1,9 @@
+Date: 14/2/2019
+Time: 1.00PM
+First report of the day
+1. Create indexdb form
+2. In progresss of learning navControl for ionic 4
+
 Date: 13/2/2019
 Time: 5.30PM
 Second report of the day
