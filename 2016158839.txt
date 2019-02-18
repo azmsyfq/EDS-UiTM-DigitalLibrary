@@ -1,16 +1,22 @@
 
-Date: 16/2/2019
+Date: 17/2/2019
+Time: 1.00PM
+First report of the day
+1. Finish the register form with avatar option
+2. In progress of sending data from login input to profile view for users
+
+Date: 15/2/2019
 Time: 5.30PM
 Second report of the day
 1. Able to retrieve data from storage by using find method 
 2. In of progress of reconstruct flow 
 
-Date: 16/2/2019
+Date: 15/2/2019
 Time: 1.00PM
 First report of the day
 1. Search for solution of the login authetication problem (cannnot get data from array)
 
-Date: 15/2/2019
+Date: 14/2/2019
 Time: 5.30PM
 Second report of the day
 1. In progress of making data send and get 
