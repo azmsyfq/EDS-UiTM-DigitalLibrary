@@ -1,5 +1,10 @@
 
 Date: 17/2/2019
+Time: 5.30PM
+Second report of the day
+1. Still in progress of passing and checking data
+
+Date: 17/2/2019
 Time: 1.00PM
 First report of the day
 1. Finish the register form with avatar option
