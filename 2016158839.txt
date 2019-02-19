@@ -1,4 +1,9 @@
 
+Date: 18/2/2019
+Time: 5.30PM
+Second report of the day
+1. Search for alternative ways to pass item from register page to profile page
+
 Date: 19/2/2019
 Time: 1.00PM
 First report of the day
