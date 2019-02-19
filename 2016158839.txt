@@ -1,10 +1,15 @@
 
-Date: 17/2/2019
+Date: 19/2/2019
+Time: 1.00PM
+First report of the day
+1. Learn about angular component because cannot send data to profile page
+
+Date: 18/2/2019
 Time: 5.30PM
 Second report of the day
 1. Still in progress of passing and checking data
 
-Date: 17/2/2019
+Date: 18/2/2019
 Time: 1.00PM
 First report of the day
 1. Finish the register form with avatar option
@@ -35,7 +40,7 @@ First report of the day
 Date: 13/2/2019
 Time: 5.30PM
 Second report of the day
-1. In progresss of finding they way to change sqlite location
+1. In progresss of finding the way to change sqlite location
 
 Date: 13/2/2019
 Time: 1.00PM
