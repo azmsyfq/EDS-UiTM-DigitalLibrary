@@ -1,5 +1,10 @@
 
 Date: 20/2/2019
+Time: 5.30PM
+Second report of the day
+1. Still in customizing progress
+
+Date: 20/2/2019
 Time: 1.00PM
 First report of the day
 1. Done login and passing data
