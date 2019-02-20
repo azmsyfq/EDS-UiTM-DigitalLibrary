@@ -1,5 +1,11 @@
 
-Date: 18/2/2019
+Date: 20/2/2019
+Time: 1.00PM
+First report of the day
+1. Done login and passing data
+2. In progress customizing profile page
+
+Date: 19/2/2019
 Time: 5.30PM
 Second report of the day
 1. Search for alternative ways to pass item from register page to profile page
