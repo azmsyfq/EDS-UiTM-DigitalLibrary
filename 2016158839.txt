@@ -1,4 +1,16 @@
 
+Date: 21/2/2019
+Time: 5.30PM
+Second report of the day
+1. Learn about making pdf view in Ionic 4
+
+Date: 21/2/2019
+Time: 1.00PM
+First report of the day
+1. Done lecturer's visit
+2. Learn about email validation
+3. Find ways to apply it in Ionic 4
+
 Date: 20/2/2019
 Time: 5.30PM
 Second report of the day
