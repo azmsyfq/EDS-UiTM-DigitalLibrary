@@ -1,5 +1,11 @@
 
 Date: 22/2/2019
+Time: 5.30PM
+Second report of the day
+1. Still learning about the use of html5
+2. Finding ways to make the login flow more secure
+
+Date: 22/2/2019
 Time: 12.30PM
 First report of the day
 1. Reasearch about ebook using html5
