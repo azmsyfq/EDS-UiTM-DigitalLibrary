@@ -1,4 +1,10 @@
 
+Date: 23/2/2019
+Time: 1.00PM
+First report of the day
+1. Learn authguard service tutorial
+2. Dealing with several bugs at the authentication form (cannot verify existed username (user will login with existed username if username the same) and cannot logout entirely (still in progress, previous user account can be access by back button))
+
 Date: 22/2/2019
 Time: 5.30PM
 Second report of the day
