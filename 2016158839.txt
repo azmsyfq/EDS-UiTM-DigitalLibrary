@@ -1,5 +1,11 @@
 
 Date: 26/2/2019
+Time: 5.30PM
+Second report of the day
+1. Able to deny unknown user to access previous account by clicking back button
+2. Able to design tab for list of books using ion-card
+
+Date: 26/2/2019
 Time: 1.00PM
 First report of the day
 1. In progress of setting the profile page
