@@ -1,4 +1,10 @@
 
+Date: 27/2/2019
+Time: 1.00PM
+First report of the day
+1. Finish the template 
+2. Having problem with books that have more than one page of html (will pop at the current app)
+
 Date: 26/2/2019
 Time: 5.30PM
 Second report of the day
