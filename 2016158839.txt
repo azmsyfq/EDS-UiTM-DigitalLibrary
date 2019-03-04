@@ -1,5 +1,11 @@
 
 Date: 4/3/2019
+Time: 5.30PM
+Second report of the day
+1. Done adding button
+2. In progress of making function
+
+Date: 4/3/2019
 Time: 1.00PM
 First report of the day
 1. Reconstruct template
