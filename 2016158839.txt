@@ -1,5 +1,10 @@
 
 Date: 6/3/2019
+Time: 5.30PM
+Second report of the day
+1. Still stuck at the same problem
+
+Date: 6/3/2019
 Time: 1.00PM
 First report of the day
 1. Still in progress of adding the completed function to storage service
