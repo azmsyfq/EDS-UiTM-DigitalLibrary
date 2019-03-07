@@ -1,5 +1,10 @@
 
 Date: 7/3/2019
+Time: 5.30PM
+Second report of the day
+1. Still having the same storing problem. Need to try and error more
+
+Date: 7/3/2019
 Time: 1.00PM
 First report of the day
 1. Try using id for each book
