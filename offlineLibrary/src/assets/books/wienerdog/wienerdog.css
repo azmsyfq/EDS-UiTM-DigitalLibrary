@@ -1,0 +1,253 @@
+body    {
+        margin: 0 0 0 0;
+        background: #cccccc;
+        background: #79A0B4;
+        background: #578599;
+        background: #62808E;
+        font-family: Georgia,"Times New Roman",Times;
+        font-size: medium;
+        color: #dddddd;
+}
+body a:link {color: #0000ff;}
+body a:visited {color: #0000ff;}
+body a:active {color: #0000ff;}
+
+img     {
+        border-width: 0px;
+        border: 0px dotted red;
+}
+div.clearer {
+        border: 0px solid orange;
+        clear: both;
+        line-height: 0;
+        margin-top: 1px;
+}
+div     {
+        text-align: center;
+}
+div.topnav {
+        border: 0px dotted red;
+        margin-top: 8px;
+        margin-left: 20px;
+        text-align: left;
+        color: #dddddd;
+        font-weight: normal;
+        font-size: medium;
+}
+div.topnav a:link {color: #dddddd;}
+div.topnav a:visited {color: #dddddd;}
+div.topnav a:hover {color: #ffffff;}
+div.topnav a:active {color: #99F8FA;}
+
+div.pagewrapper {
+        border: solid 0px black;
+        padding: 0 23px 10px 23px;
+}
+div.mainwrapper {
+        border: dotted 0px red;
+        width: 630px;
+        margin: 0 auto;
+}
+div.titlepg2 {
+        border: 0px dotted red;
+        float: left;
+        margin-top: 27px;
+        margin-bottom: 0px;
+        text-align: left;
+        font-size: large;
+        font-style: italic;
+        font-weight: bold;
+        color: #dddddd;
+}
+div.pagenum {
+        border: 0px dotted red;
+        float: right;
+        margin-top: 27px;
+        margin-bottom: 0px;
+        text-align: right;
+        font-size: large;
+        color: #dddddd;
+}
+div.title {
+        border: 0px dotted green;
+        margin: 30px auto 0 auto;
+}
+div.writtenby {
+        margin-top: 4px;
+        color: #dddddd;
+        font-size: large;
+        font-weight: normal;
+        font-style: italic;
+}
+div.hrule-page1 {
+        margin: 18px 0 30px 0;
+        line-height: 1px;
+        border-top: 1px solid #808080;
+        border-color: #dddddd;
+}
+div.hrule-page2-20 {
+        margin: 10px 0 40px 0;
+        line-height: 1px;
+        border-top: 1px solid #808080;
+        border-color: #dddddd;
+}
+div.pictextframe {
+	border: 1px solid #000000;
+	background-color: #ffffff;
+}
+div.pic {
+        border: 0px dotted orange;
+        margin: 25px auto 0 auto;
+}
+div.spacerpicstory1 {
+        border: 0px solid blue;
+        margin-top: 20px;
+        line-height: 0;
+}
+div.spacerpicstory2 {
+        border: 0px solid blue;
+        margin-top: 12px;
+        line-height: 0;
+}
+div.spacerpicstory3 {
+        border: 0px solid blue;
+        margin-top: 1px;
+        line-height: 0;
+}
+div.storytext {
+        border: 0px solid green;
+        margin: 0 auto 1px auto;
+        width: 500px
+}
+.marginfix {
+	font-size: 1em;
+	line-height: 1px;
+}
+div.arrowleftwrapper {
+        border: 0px solid red;
+        margin: 30px 0 6px 15px;
+        float: left;
+        display: inline;        /* fixes ie double margin bug */
+}
+div.arrowleft {
+        border: 0px dotted blue;
+        margin: 0 0 0 0;
+        display: inline;        /* fixes ie double margin bug */
+}
+div.textprev {
+        border: 0px dotted blue;
+        margin: 2px 0 0 0;
+        font-family: geneva,arial,helvetica;
+        font-size: .95em;
+        font-weight: medium;
+        font-style: normal;
+        color: #808080;
+}
+div.textprev a:link {color: #808080; text-decoration: none;}
+div.textprev a:visited {color: #808080; text-decoration: none;}
+div.textprev a:hover {color: #808080; text-decoration: underline;}
+div.textprev a:active {color: #000000; text-decoration: underline;}
+
+div.arrowrightwrapper {
+        border: 0px solid blue;
+        margin: 30px 15px 6px 0;
+        float: right;
+        display: inline;        /* fixes ie double margin bug */
+}
+div.arrowright {
+        border: 0px dotted orange;
+        margin: 0 0 0 0;
+        display: inline;        /* fixes ie double margin bug */
+}
+div.textnext {
+        border: 0px dotted blue;
+        margin: 2px 0 0 0;
+        font-family: geneva,arial,helvetica;
+        font-size: .95em;
+        font-weight: medium;
+        font-style: normal;
+        color: #808080;
+}
+div.textnext a:link {color: #808080; text-decoration: none;}
+div.textnext a:visited {color: #808080; text-decoration: none;}
+div.textnext a:hover {color: #808080; text-decoration: underline;}
+div.textnext a:active {color: #000000; text-decoration: underline;}
+
+div.hrule-botmlinks {
+        border: 0px dotted blue;
+        clear: both;
+        margin: 40px 0 10px 0;
+        line-height: 1px;
+        border-top: 1px solid #808080;
+        border-color: #dddddd;
+}
+div.botmnavwrapper {
+        border: 0px dotted blue;
+}
+div.pagelinks {
+        border: 0px dotted red;
+        margin-top: 5px;
+}
+.gotopage {margin-right: 10px;
+	color: #dddddd;
+}
+div.pagelinks a {
+        padding: 3px 3px;
+        font-family: geneva,arial,helvetica;
+        font-weight: normal;
+}
+div.pagelinks a:link {color: #dddddd; text-decoration: underline;}
+div.pagelinks a:visited {color: #bbbbbb; text-decoration: underline;}
+div.pagelinks a:hover {
+        color: #ffffff;
+        padding: 3px 3px;
+        text-decoration: none;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+}
+div.pagelinks a:active {color: #99F8FA;}
+
+.curpagelink {
+        color: #ffffff;
+        padding: 3px 3px;
+        border-top: 1px solid #808080;
+        border-bottom: 1px solid #808080;
+        font-family: geneva,arial,helvetica;
+        font-weight: bold;
+        font-size: large;
+        vertical-align: -1px;
+}
+div.csolink {
+        border: 0px dotted green;
+        margin-top: 20px;
+        font-weight: normal;
+        font-size: medium;
+}
+div.csolink a:link {color: #dddddd;}
+div.csolink a:visited {color: #dddddd;}
+div.csolink a:hover {color: #ffffff;}
+div.csolink a:active {color: #99F8FA;}
+
+p.copyright {
+        margin: 32px 0 0 0;
+        text-align: center;
+        color: #cccccc;
+        font-family: geneva,arial,helvetica;
+        font-weight: normal;
+        font-size: x-small;
+}
+
+span.copyrightlink a:link {color: #dddddd;}
+span.copyrightlink a:visited {color: #dddddd;}
+span.copyrightlink a:hover {color: #ffffff;}
+span.copyrightlink a:active {color: #99F8FA;}
+
+p.datecode {
+        margin: 20px 0 0 0;
+        border: 0px dotted red;
+        text-align: center;
+        font-family: geneva,arial,helvetica;
+        font-weight: normal;
+        font-size: x-small;
+        color: #aaaaaa;
+}

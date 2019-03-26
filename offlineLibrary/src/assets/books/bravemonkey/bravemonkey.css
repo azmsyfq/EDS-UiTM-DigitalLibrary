@@ -1,0 +1,222 @@
+body    {
+	margin: 0;
+	background-color: #60756f;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: medium;
+	color: #ddd;
+	text-align: center;
+}
+p	{
+	margin: 0;
+	padding: 0;
+	}
+img     {
+        border-width: 0px;
+}
+.clearer {
+        clear: both;
+        font-size: .1em;
+        line-height: 0;
+        margin-top: 1px;
+}
+.topnav {
+        margin-top: 8px;
+        margin-left: 20px;
+        text-align: left;
+        color: #ddd;
+        font-weight: normal;
+        font-size: medium;
+}
+.topnav a:link    {color: #ddd;}
+.topnav a:visited {color: #ddd;}
+.topnav a:hover   {color: #fff;}
+.topnav a:active  {color: #99F8FA;}
+
+.pagewrapper {
+	padding: 0px 0px 10px 0px;
+}
+.outerwrapper {
+	width: 738px;	/* Must have fixed width to hold fixed width floats and be centered.  Width = .mainwrapper + .arrowleft/rightwrappers */
+	margin: 0 auto;
+}
+.mainwrapper {
+        width: 630px;
+        float: left;
+}
+.titlepg2 {
+        float: left;
+        margin-top: 17px;
+        margin-bottom: 0px;
+        text-align: left;
+        font-size: large;
+        font-style: italic;
+        font-weight: bold;
+        color: #ddd;
+}
+.pagenum {
+        float: right;
+        margin-top: 17px;
+        margin-bottom: 0px;
+        text-align: right;
+        font-size: large;
+        color: #ddd;
+}
+.title {
+        margin: 30px auto 0 auto;
+}
+.writtenby {
+        margin-top: 4px;
+        color: #ddd;
+        font-size: large;
+        font-weight: normal;
+        font-style: italic;
+}
+.hrule-page1, .hrule-page2-20 {
+        margin: 18px 0 30px 0;
+        line-height: 1px;
+        border-top: 1px solid #808080;
+        border-color: #ddd;
+}
+.hrule-page2-20 {
+	margin: 10px 0 20px 0;		/* bottom margin 30px-10px for "pictop" spacer=20px */
+}
+.pictextframe {
+	border: 1px solid #000;
+	background-color: #fff;
+}
+.frameheightleft, .frameheightright {
+	float: left;
+	padding-top: 480px;
+}
+.pictextwrapper {
+	width: 626px;
+	float: left;
+}
+.pic {
+	margin: 25px auto 0 auto;
+	text-align: center;
+}
+.storytext {
+	position: relative;
+	top: 10px;
+}
+.text, .text-space {
+	width: 550px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.5em;
+	color: #000;
+	margin-left: auto;
+	margin-right: auto;
+}
+.text-space {
+	line-height: .5em;
+}
+.arrowleftwrapper, .arrowrightwrapper {
+	margin-top: 450px;
+	display: inline;        /* fixes ie double margin bug */
+}
+.arrowleftwrapper {
+	padding: 0px 14px 6px 9px;	/* (arrow width + left/right padding) x 2) + mainwrapper = outerwrapper */
+	float: left;
+}
+.arrowrightwrapper {
+	padding: 0px 9px 6px 14px;	/*    "     "          "        "                 "             "       */
+	float: right;
+}
+.arrowleft, .arrowright {
+        margin: 0;
+        display: inline;        /* fixes ie double margin bug */
+}
+.textprev, .textnext {
+	margin: 2px 0 0 0;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	color: #ddd;
+}
+.textprev a:link    {color: #ddd; text-decoration: none;}
+.textprev a:visited {color: #ddd; text-decoration: none;}
+.textprev a:hover   {color: #ddd; text-decoration: underline;}
+.textprev a:active  {color: #ddd; text-decoration: underline;}
+
+.textnext a:link    {color: #ddd; text-decoration: none;}
+.textnext a:visited {color: #ddd; text-decoration: none;}
+.textnext a:hover   {color: #ddd; text-decoration: underline;}
+.textnext a:active  {color: #ddd; text-decoration: underline;}
+
+.hrule-botmlinks {
+        clear: both;
+        margin: 30px 0 10px 0;
+        line-height: 1px;
+        border-top: 1px solid #808080;
+        border-color: #ddd;
+}
+.pagelinks {
+        margin-top: 5px;
+}
+.gotopage {
+	margin-right: 10px;
+	color: #ddd;
+}
+.pagelinks a {
+	padding: 3px 3px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+}
+.pagelinks a:link    {color: #ddd; text-decoration: underline;}
+.pagelinks a:visited {color: #bbb; text-decoration: underline;}
+.pagelinks a:hover {
+	color: #fff;
+	padding: 3px 3px;
+	text-decoration: none;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+.pagelinks a:active  {color: #99F8FA;}
+
+.curpagelink {
+	color: #fff;
+	padding: 3px 3px;
+	border-top: 1px solid #808080;
+	border-bottom: 1px solid #808080;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	vertical-align: -1px;
+}
+.csolink {
+        margin-top: 20px;
+        font-weight: normal;
+        font-size: medium;
+}
+.csolink a:link    {color: #ddd;}
+.csolink a:visited {color: #ddd;}
+.csolink a:hover   {color: #fff;}
+.csolink a:active  {color: #99F8FA;}
+
+.copyright {
+        margin: 32px 0 150px 0;
+        text-align: center;
+        color: #ccc;
+        font-family: Geneva, Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        font-size: x-small;
+}
+
+.copyrightlink a:link {color: #ccc;}
+.copyrightlink a:visited {color: #ccc;}
+.copyrightlink a:hover {color: #fff;}
+.copyrightlink a:active {color: #99F8FA;}
+
+.datecode {
+        margin: 20px 0 0 0;
+        text-align: center;
+        font-family: Geneva, Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        font-size: x-small;
+        color: #aaa;
+}

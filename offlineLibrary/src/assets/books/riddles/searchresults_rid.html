@@ -1,0 +1,298 @@
+<html>
+<head>
+<title>Search Results</title>
+<!-- PROCESS PARAMETERS FROM SEARCHFEED START -->
+<script>
+ var listings = new Array ();
+ var RelatedSearches = new Array();
+ var TopSearches = new Array();
+ var Searchfeed = new Object();
+
+ var params = new Array();
+ function escapeStr(str){
+   var s = escape(str);
+   s = s.replace( /\//g,"%2F" );
+   s = s.replace( "#", "%23" );
+   return s;
+ }
+ function unescapeStr(str){
+   var s = unescape(str);
+   s = s.replace( /\+/g," " );
+   return s;
+ }
+
+ function parseParams(s) {
+   var v = 1;
+   q = s.indexOf('?');
+   if (q != -1) {
+     t = s.slice(q+1);
+     t = t.replace(/%26/gi, "&");
+     z = t.split('&');
+     for (i=0;i<z.length;i++) {
+       if (z[i] != "") {
+         v = z[i].split('=');
+         params[v[0]] = v[1];
+       }
+     }
+   }
+ }
+ parseParams(document.location.href);
+ function getParam(s) {
+   return params[s];
+ }
+
+ var keyword = getParam("keyword");
+ if (keyword == null || keyword == "undefined") {
+   keyword = "";
+ }
+
+ var page = getParam("page");
+
+ if (page == null || page == "undefined") {
+   page = 1;
+ }
+ page = parseInt(page);
+ if (isNaN(page)) {
+   page = 1;
+ }
+ if (page < 0) {
+   page = 1;
+ }
+ var numRes = 5;
+ var partnerId = 23507;
+ var rndStr = Math.random()*100000;
+ document.write("<scr" + "ipt src='http://www.searchfeed.com/rd/feed/JavaScriptFeedRel.jsp?rnd=" + rndStr + "&adult=0&cat=" + keyword + "&trackID=N0282433755&pID=" + partnerId + "&nl=" + numRes + "&p=" + page + "'>" + "</scr" + "ipt>");
+</script>
+<!-- PROCESS PARAMETERS FROM SEARCHFEED END -->
+<style>
+.searchBox {
+  border : 1px solid #000000;
+  background-color : #FFFFFF;
+  color : #000000;
+  font-size : 13;
+  font-family :  Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.leftFont {
+ font-size : 11;
+ font-family :  Verdana, Arial, Helvetica, sans-serif;
+ color : #000000;
+ text-decoration: none;
+ font-weight: bold;
+}
+.leftFontHead {
+ font-size : 13;
+ font-family :  Verdana, Arial, Helvetica, sans-serif;
+ color : #000000;
+ text-decoration: none;
+ font-weight: bold;
+}
+.middleFont {
+ font-size : 11;
+ font-family :  Verdana, Arial, Helvetica, sans-serif;
+ color : #000000;
+ text-decoration: none;
+}
+.middleFontTitle {
+ font-size : 11;
+ font-family :  Verdana, Arial, Helvetica, sans-serif;
+ color : #000000;
+ text-decoration: none;
+}
+.middleFontHead {
+ font-size : 13;
+ font-family :  Verdana, Arial, Helvetica, sans-serif;
+ color : #000000;
+ text-decoration: none;
+}
+.topFont {
+ font-size : 11;
+ font-family :  Verdana, Arial, Helvetica, sans-serif;
+ color : #FFFFFF;
+ font-weight: bold;
+ text-decoration: none;
+}
+
+
+a.middleFont:HOVER {
+ font-size : 11;
+ font-family :  Verdana, Arial, Helvetica, sans-serif;
+ color : #000000;
+ text-decoration: underline;
+}
+a.middleFontTitle:HOVER {
+ font-size : 11;
+ font-family :  Verdana, Arial, Helvetica, sans-serif;
+ color : #000000;
+ text-decoration: underline;
+}
+a.middleFontHead:HOVER {
+ font-size : 13;
+ font-family :  Verdana, Arial, Helvetica, sans-serif;
+ color : #000000;
+ text-decoration: underline;
+}
+
+
+
+a.topFont:HOVER {
+ font-size : 11;
+ font-family :  Verdana, Arial, Helvetica, sans-serif;
+ color : #FFFFFF;
+ font-weight: bold;
+ text-decoration: underline;
+}
+
+
+a.leftFont:HOVER {
+ font-size : 11;
+ font-family :  Verdana, Arial, Helvetica, sans-serif;
+ color : #000000;
+ text-decoration: underline;
+ font-weight: bold;
+}
+
+</style>
+</head>
+
+<body bgcolor="white" leftmargin="0" marginheight="0" marginwidth="0" rightmargin="0" bottommargin="0" topmargin="0">
+<!-- BEGIN PAGE TOP -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#6487DC">
+ <tr><td colspan="5"><img src='whtdot.gif' width='1' height='2' border='0'></td></tr>
+ <tr>
+  <td>&nbsp;&nbsp;</td>
+  <td><a href="index-1.html" class='topFont'>Home</a></td>
+  <td width="100%" align="right">&nbsp; &nbsp; </td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+
+ <tr>
+  <td colspan="5">
+    <table align="center">
+      <tr>
+        <td align="center"><font class='topFont'><a href="SearchResults.html?keyword=educational games" class='topFont'>educational games</a></font>&nbsp;&nbsp;<font class='topFont'><a href="SearchResults.html?keyword=fun for kids" class='topFont'> fun for kids</a></font>&nbsp;&nbsp;<font class='topFont'><a href="SearchResults.html?keyword=childrens books" class='topFont'> childrens books</a></font>&nbsp;&nbsp;<font class='topFont'><a href="SearchResults.html?keyword=phonics" class='topFont'> phonics</a></font></td>
+      </tr>
+    </table>
+  </td>
+ </tr>
+
+ <tr><td colspan="5"><img src="http://www.searchfeed.com/rd/Images/pixel.gif" width="1" height="2"></td></tr>
+</table>
+<!-- END PAGE TOP -->
+
+<table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%">
+  <tr>
+    <td width="180" nowrap="">
+
+<!-- BEGIN PAGE LEFT -->
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#F1F1F1" height="100%">
+        <tr>
+          <td colspan="3">&nbsp;</td>
+        </tr>
+
+        <tr>
+          <td>&nbsp;</td>
+          <td valign="top" valign="top">
+            <font class='leftFont'>
+            <font class='leftFontHead'>More Searches</font>
+            <ul>
+            <li><a class='leftFont' href='SearchResults.html?keyword=puzzles'>puzzles</a></li><li><a class='leftFont' href='SearchResults.html?keyword=+coloring+books'>coloring books</a></li>
+            </ul>
+            </font>
+          </td>
+          <td>&nbsp;</td>
+        </tr>
+
+        <tr height="100%">
+          <td colspan="3">&nbsp;</td>
+        </tr>
+      </table>
+<!-- END PAGE LEFT -->
+
+    </td>
+    <td width="100%">
+
+<!-- BEGIN PAGE MIDDLE -->
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%" bgcolor='#FFFFFF'>
+ <tr><td colspan="3">&nbsp;</td></tr>
+
+ <tr>
+   <td>&nbsp;</td>
+   <td width="100%" colspan="2">
+    <table width="100%">
+      <tr>
+       <td nowrap=""><font class='middleFontHead'><b>Search Results</b>: <script>document.write(unescapeStr(keyword))</script></font></td>
+       <td align="right" width="100%" nowrap="">&nbsp;&nbsp;</td>
+      </tr>
+    </table>
+   </td>
+ </tr>
+ <tr><td colspan="3">&nbsp;</td></tr>
+
+ <tr>
+   <td>&nbsp;</td>
+   <td>
+   <script>
+    if (listings != null && listings.length > 0) {
+    document.write("<table border='0' cellpadding='5' cellspacing='0'>");
+      for (i = 0; i < listings.length; i++) {
+        var sTitle = listings[i].title;
+        var sDesc = listings[i].description;
+        var sUrl = listings[i].url;
+        var sUri = listings[i].uri;
+        var fBid= Math.round(100*listings[i].bid)/100;
+        var sBid = '';
+        if (fBid > 0) {
+          sBid = "(Bid Amount: <a target='_blank' class='middleFont' href='http://www.searchfeed.com/rd/AdvertiserInfo.jsp?pID=23507'>" + fBid + "</a>)";
+        }
+
+        document.write("<tr>");
+        document.write(" <td align='right' valign='top' class='middleFont'><b>" + ((numRes*(page-1)) + i+1) + ".</b></td>");
+        document.write(" <td class='middleFontTitle' valign='top'><a target='_blank' href='" + sUri + "' class='middleFontTitle'><b>" + sTitle + "</b></a>");
+        document.write("<br>" + sDesc );
+        document.write("<br><br>");
+        document.write(" </td>");
+        document.write("</tr>");
+      }
+   document.write("</table>");
+   } else if ( keyword != "") {
+     document.write("<font class='middleFontHead'><b>&nbsp;&nbsp;&nbsp;No Results Found</b><br><br><br></font>");
+   }
+   </script>
+   </td>
+   <td>&nbsp;</td>
+ </tr>
+ <tr><td colspan="3">&nbsp;</td></tr>
+
+ <tr>
+   <td colspan="3" align='right' nowrap="">
+
+   <script>
+    if (parseInt(page) > 1) {
+      document.write("<a href='SearchResults.html?keyword=" + keyword + "&page=" + (parseInt(page)-1) + "' class='middleFontHead'><b>Prev</b></a>");
+    }
+    </script>
+    &nbsp;
+    <script>
+    if (Searchfeed["HasNext"]) {
+     document.write("<a href='SearchResults.html?keyword=" + keyword + "&page=" + (parseInt(page)+1) + "' class='middleFontHead'><b>Next</b></a>");
+    }
+   </script>
+   &nbsp;&nbsp;&nbsp;
+   </td>
+ </tr>
+
+ <tr height="100%"><td colspan="3">&nbsp;</td></tr>
+</table>
+
+<!-- END PAGE MIDDLE -->
+</td>
+</tr>
+</table>
+
+
+</body>
+</html>

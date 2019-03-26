@@ -1,0 +1,64 @@
+body, p, h1, h2 {
+	margin: 0;
+	padding: 0;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: normal;
+}
+
+/* primary table is 728 -- main/gutter/sidebar = 594/4/130 = 728 */
+/* 4 pixels added as something is forcing an additional 4 pixels */
+
+#mainwidth    {width: 598px;}
+#gutterwidth  {width: 4px;}
+#sidebarwidth {width: 130px;}
+
+#main	{
+	margin: 0 5%;
+	text-align: center;
+}
+#topnav	{
+	padding: 20px 0 8px 0;
+}
+#title {
+	background-color: #ff0000;
+}
+h1	{
+	font-family: 'Comic Sans MS', Geneva, Arial, Helvetica, sans-serif;
+	color: #ffefcc;
+	font-size: x-large;
+	font-weight: bold;
+}
+#rule1, #rule2, #rule3	{
+	border-top: 1px solid #808080;
+	line-height: 0;
+}
+#rule1	{
+}
+#bottombanner {
+	margin: 10px 0 10px 0;
+}
+#rule2	{
+	margin: 0 0 10px 0;
+}
+#bottomnav1 {
+	padding: 24px 0 0 0;
+}
+#bottomnav2 {
+	padding: 8px 0 0 0;
+}
+#rule3	{
+	margin: 28px 0 10px 0;
+}
+#copyright {
+	margin: 30px 0 0 0;
+	font-size: x-small;
+}
+#pagecode {
+	margin: 30px 0 0 0;
+	font-size: x-small;
+	color:#999999;
+}
+#sidebar {
+	background-color: #ffcc66;
+}

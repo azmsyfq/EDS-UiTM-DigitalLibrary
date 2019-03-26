@@ -1,0 +1,40 @@
+<ion-grid>
+  <ion-row justify-content-center>
+    <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
+      <div style="margin-top: 1vh" text-center>
+        <ion-buttons slot="start">
+          <ion-back-button defaultHref="/login"></ion-back-button>
+        </ion-buttons>
+        <h4>Register</h4>
+      </div>
+      <div padding>
+        <ion-img src="{{ myimage }}" (click)="addEvent()"></ion-img>
+        <ion-card padding *ngIf="avatarChoose">
+          <ion-row>
+            <ion-img src="{{ myimageMan }}" (click)="avatarMan()"></ion-img>
+            <ion-img src="{{ myimageWoman }}" (click)="avatarWoman()"></ion-img>
+            <ion-img src="{{ myimageCat }}" (click)="avatarCat()"></ion-img>
+          </ion-row>
+        </ion-card>
+        <ion-item>
+          <ion-label position="floating">Username</ion-label>
+          <ion-input [(ngModel)]="newUser.username"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Confirm Username</ion-label>
+          <ion-input [(ngModel)]="newUser.confirm"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Email</ion-label>
+          <ion-input [(ngModel)]="newUser.email"
+            pattern="[A-Za-z0-9._%+-]{3,}@[a-zA-Z]{3,}([.]{1}[a-zA-Z]{2,}|[.]{1}[a-zA-Z]{2,}[.]{1}[a-zA-Z]{2,})">
+          </ion-input>
+        </ion-item>
+      </div>
+      <div padding>
+        <ion-button expand="full" (click)="addUser()">Register</ion-button>
+        <div padding text-center>...or<button clear routerLink="/login" routerDirection="back">login here</button></div>
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-grid>
