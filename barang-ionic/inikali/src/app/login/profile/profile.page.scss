@@ -1,0 +1,119 @@
+app-profile {
+}
+
+ion-card-title {
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+$white-color: #fff;
+$height100: 100%;
+
+ion-grid {
+    width:100%;
+    height: $height100;
+    
+    ion-img {
+      width: 18px;
+      height: 18px;
+    }
+}
+
+div.scrollmenu {
+  background-color: rgb(255, 255, 255);
+  overflow-y: hidden;
+  white-space: nowrap;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  margin-top: -15px;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  margin-top: -1px;
+  padding: 8px 8px 6px 8px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+.scrollmenu img {
+  width: auto;
+  height: 100px;
+}
+
+.sidenav {
+  height: 75%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 25%;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+}
+
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #e64900;
+}
+
+.main {
+  margin-left: 200px;
+  font-size: 20px;
+  padding: 0px 10px;
+}
+
+.active {
+  background-color: green;
+  color: rgb(206, 33, 33);
+}
+
+.dropdown-container {
+  display: none;
+  background-color: #ffffff;
+  padding-left: 8px;
+}
+
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+.frame {
+  height: 75%;
+  width: 100%;
+  position: fixed;
+  top: 25%;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+}
+
+.list {
+  margin-top: 5px;
+}
+
+ion-fab-button {
+  position: relative;
+  left: 1325%;
+  width: 90px;
+}

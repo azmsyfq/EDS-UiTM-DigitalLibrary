@@ -1,0 +1,208 @@
+
+/* ------------------------GLOBAL DEFAULTS------------------------ */
+
+a         {text-decoration: underline;}
+a:link    {color: #00f;}
+a:visited {color: #800080;}
+a:hover   {color: #000;}
+a:active  {color: #f00;}
+
+body	{
+	background: #fff;
+	color: #000;
+	font-family: georgia, "times new roman", times, serif;
+	}
+body, p, h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	}
+img	{
+	border-style: none;
+	}
+
+/* ------------------------COMMON------------------------ */
+
+.ClearFloats {
+	clear: both;
+	display: none;
+	}
+
+/* ------------------------MAIN PANEL------------------------ */
+
+#PageWrapper  {
+	text-align: center;
+	}
+#TopBanner  {
+	background-color: #ccc;
+	text-align: center;
+	}
+#SponsorTag  {
+	background-color: #000;
+	text-align: center;
+	}
+#TopLinks  {
+	width: 728px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 14px;
+	padding-top: 8px;
+	}
+/* #TitleWrapper  {   */                      /* NOT USED ???? */
+/*	width: 510px;
+	}
+*/
+div.TitleText  {
+	font-size: 2em;
+	font-weight: bold;
+	padding-top: 40px;
+	}
+td.TitleLogo img  {
+	padding-top: 60px;
+	}
+td.TitlePic img  {
+	padding-top: 40px;
+	}
+div.CreditLine  {
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: normal;
+	font-style: italic;
+	padding-top: 40px;
+	}
+div.Author  {
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	font-style: italic;
+	padding-top: 6px;
+	padding-bottom: 40px;
+	}
+table.TitlePageRef  {
+	padding-top: 20px;
+	font-size: medium;
+	}
+h1	{				/* for title reference */
+	font-weight: bold;
+	font-style: italic;
+	}
+div.TopRule  {				/* for title page */
+	padding-top: 20px;
+	padding-bottom: 40px;
+	}
+div.TopRule2  {				/* for pages 1-8 */
+	padding-bottom: 10px;
+	}
+#TopNavArrows  {
+	font-family: "Geneva", "Arial", "Helvetica", sans-serif;
+	font-size: x-small;
+	color: #000;
+	}
+td.TopLeftArrow img  {
+	padding-left: 1.5em;
+	padding-right: .8em;
+	}
+td.TopRightArrow img  {
+	padding-left: .8em;
+	padding-right: 1.5em;
+	}
+/*  #StoryWrapper  {
+	width: 450px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	}
+*/
+table.Story p  {			/* padding for each paragraph (verse) */
+	text-align: left;
+	line-height: 1.4em;
+	padding: .6em 0;
+	}
+span.tm  {
+	font-family: "Geneva", "Arial", "Helvetica", sans-serif;
+	font-size: .35em;
+	vertical-align: super;
+	}
+td.Verse  {				/* padding for each set of verses in a td */
+	padding: 1em 0;
+	}
+td.Art  {
+	padding: 10px 30px 10px 0;
+	}
+td.Crest  {
+	padding-top: 40px;
+	}
+td.TheEnd  {
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: normal;
+	font-style: italic;
+	padding-top: 80px;
+	padding-bottom: 90px;
+	}
+td.Contact  {
+	text-align: center;
+	font-size: .8em;
+	font-weight: normal;
+	font-style: normal;
+	padding-bottom: 30px;
+	}
+
+/* ------------------------LINKS------------------------ */
+
+div.BottomRule  {
+	padding-top: 30px;
+	padding-bottom: 10px;
+	}
+td.UpArrow  {
+	font-family: "Geneva", "Arial", "Helvetica", sans-serif;
+	font-size: x-small;
+	color: #000;
+	}
+td.PageLinks  {
+	font-family: "times new roman", times, serif;
+	font-size: large;
+	color: #f00;
+	padding-top: 10px;
+	}
+span.GoToPage  {
+	font-family: georgia, "times new roman", times, serif;
+	font-size: medium;
+	color: #000;
+	}
+span.Hyphen  {
+	font-family: georgia, "times new roman", times, serif;
+	font-size: medium;
+	color: #000;
+	}
+/*   span.Home  {
+	font-family: georgia, "times new roman", times, serif;
+	font-size: medium;
+	}
+*/
+td.HomeLink  {
+	padding-top: 30px;
+	}
+
+/* ------------------------FOOTER------------------------ */
+
+#Copyright {
+	text-align: center;
+	font-family: "Geneva", "Arial", "Helvetica", sans-serif;
+	font-size: x-small;
+	padding-top: 30px;
+	}
+#Numbers  {
+	text-align: center;
+	font-family: "Geneva", "Arial", "Helvetica", sans-serif;
+	font-size: x-small;
+	color: #ccc;
+	padding-top: 20px;
+	}
+
+
+
+
+
+

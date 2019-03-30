@@ -1,0 +1,171 @@
+<ion-header no-border>
+    <ion-grid>
+        <ion-row>
+            <ion-img src="{{ image }}"></ion-img>&nbsp;&nbsp;Username: {{ username }}
+            <button size="small" routerLink="/login" href="#" routerDirection="back" (click)="logout()">Logout</button>
+        </ion-row>
+    </ion-grid>
+</ion-header>
+<ion-content>
+    <p class="list"> &nbsp;&nbsp;List of Books:</p>
+    <div class="scrollmenu">
+        <a href="\assets\books\absulum\index.html" (click)="openButton1()" target="test1" id="book1"><img
+                src="/assets/books/absulum/sickrd.gif"></a>
+        <a href="\assets\books\alphabet\index.html" (click)="openButton2()" target="test1" id="book2"><img
+                src="/assets/books/alphabet/alet.gif"></a>
+        <a href="\assets\books\bee\index.html" (click)="openButton3()" target="test1" id="book3"><img
+                src="/assets/books/bee/begin.gif"></a>
+        <a href="\assets\books\beebf\index.html" (click)="openButton4()" target="test1" id="book4"><img
+                src="/assets/books/beebf/bf1.gif"></a>
+        <a href="\assets\books\beenight\index.html" (click)="openButton5()" target="test1" id="book5"><img
+                src="/assets/books/beenight/night1_448x440_f90.jpeg"></a>
+        <a href="\assets\books\beepicnic\index.html" (click)="openButton6()" target="test1" id="book6"><img
+                src="/assets/books/beepicnic/picnic1_527x373.jpeg"></a>
+        <a href="\assets\books\bitaba\index.html" (click)="openButton7()" target="test1" id="book7"><img
+                src="/assets/books/bitaba/bitaba2.jpeg"></a>
+        <a href="/assets/books/bravemonkey/index.html" (click)="openButton8()" target="test1" id="book8"><img
+                src="/assets/books/bravemonkey/page1.gif"></a>
+        <a href="\assets\books\count\index.html" (click)="openButton9()" target="test1" id="book9"><img
+                src="/assets/books/count/bunny1.gif"></a>
+        <a href="\assets\books\coyote\index.html" (click)="openButton10()" target="test1" id="book10"><img
+                src="/assets/books/coyote/snail_duped.jpeg"></a>
+        <a href="\assets\books\farm\index.html" (click)="openButton11()" target="test1" id="book11"><img
+                src="/assets/books/farm/farm.gif"></a>
+        <a href="\assets\books\gargoyle\index.html" (click)="openButton12()" target="test1" id="book12"><img
+                src="/assets/books/gargoyle/gargoyls.gif"></a>
+        <a href="\assets\books\gingerbread\index.html" (click)="openButton13()" target="test1" id="book13"><img
+                src="/assets/books/gingerbread/page9.jpeg"></a>
+        <a href="\assets\books\halloween\index.html" (click)="openButton14()" target="test1" id="book14"><img
+                src="/assets/books/halloween/house.jpeg"></a>
+        <a href="\assets\books\happen\index.html" (click)="openButton15()" target="test1" id="book15"><img
+                src="/assets/books/happen/pic1.jpeg"></a>
+        <a href="\assets\books\invis-allig\index.html" (click)="openButton16()" target="test1" id="book16"><img
+                src="/assets/books/invis-allig/pic1b.jpeg"></a>
+        <a href="\assets\books\kitty\index.html" (click)="openButton17()" target="test1" id="book17"><img
+                src="/assets/books/kitty/small.gif"></a>
+        <a href="\assets\books\lk\index.html" (click)="openButton18()" target="test1" id="book18"><img
+                src="/assets/books/lk/cover128.gif"></a>
+        <a href="\assets\books\loomploy\index.html" (click)="openButton19()" target="test1" id="book19"><img
+                src="/assets/books/loomploy/able.jpeg"></a>
+        <a href="\assets\books\marymakeover\index.html" (click)="openButton20()" target="test1" id="book20"><img
+                src="/assets/books/marymakeover/g/page0_9.jpeg"></a>
+        <a href="\assets\books\mcfee\indexf.html" (click)="openButton21()" target="test1" id="book21"><img
+                src="/assets/books/mcfee/pond_90_b.jpeg"></a>
+        <a href="\assets\books\noblegnarble\index.html" (click)="openButton22()" target="test1" id="book22"><img
+                src="/assets/books/noblegnarble/1_442x525.jpeg"></a>
+        <a href="\assets\books\ollie\index.html" (click)="openButton23()" target="test1" id="book23"><img
+                src="/assets/books/ollie/crab2.gif"></a>
+        <a href="\assets\books\patrick\index.html" (click)="openButton24()" target="test1" id="book24"><img
+                src="/assets/books/patrick/caught.gif"></a>
+        <a href="\assets\books\pirate\index.html" (click)="openButton25()" target="test1" id="book25"><img
+                src="/assets/books/pirate/1_dream.jpeg"></a>
+        <a href="\assets\books\roundbrd\15.html" (click)="openButton26()" target="test1" id="book26"><img
+                src="/assets/books/roundbrd/abirdd.jpeg"></a>
+        <a href="\assets\books\wienerdog\index.html" (click)="openButton27()" target="test1" id="book27"><img
+                src="/assets/books/wienerdog/page1.jpeg"></a>
+        <a href="\assets\books\wolstencroft\index.html" (click)="openButton28()" target="test1" id="book28"><img
+                src="/assets/books/wolstencroft/tag_pct33.jpeg"></a>
+        <a href="\assets\books\wumplump\indexf.html" (click)="openButton29()" target="test1" id="book29"><img
+                src="/assets/books/wumplump/wump1.gif"></a>
+        <a href="\assets\books\zoo\index.html" (click)="openButton30()" target="test1" id="book30"><img
+                src="/assets/books/zoo/zoosign.gif"></a>
+    </div>
+    <div class="frame">
+        <iframe src="\assets\imgs\aaa.jpg" width="87%" height="100%" name="test1" id="test1"></iframe>
+        <ion-fab vertical="bottom" horizontal="start" slot="fixed">
+            <ion-fab-button *ngIf="button1" (click)="bookCompleted1()">Completed</ion-fab-button>
+            <ion-fab-button *ngIf="button2" (click)="bookCompleted2 = !bookCompleted2">Completed</ion-fab-button>
+            <ion-fab-button *ngIf="button3" (click)="bookCompleted3 = !bookCompleted3">Completed</ion-fab-button>
+            <ion-fab-button *ngIf="button4" (click)="bookCompleted4 = !bookCompleted4">Completed</ion-fab-button>
+            <ion-fab-button *ngIf="button5" (click)="bookCompleted5 = !bookCompleted5">Completed</ion-fab-button>
+            <ion-fab-button *ngIf="button6" (click)="bookCompleted6 = !bookCompleted6">Completed</ion-fab-button>
+            <ion-fab-button *ngIf="button7" (click)="bookCompleted7 = !bookCompleted7">Completed</ion-fab-button>
+            <ion-fab-button *ngIf="button8" (click)="bookCompleted8 = !bookCompleted8">Completed</ion-fab-button>
+            <ion-fab-button *ngIf="button9" (click)="bookCompleted9 = !bookCompleted9">Completed</ion-fab-button>
+            <ion-fab-button *ngIf="button10" (click)="bookCompleted10 = !bookCompleted10">Completed</ion-fab-button>
+            <ion-fab-button *ngIf="button11" (click)="bookCompleted11 = !bookCompleted11">Completed</ion-fab-button>
+            <ion-fab-button *ngIf="button12" (click)="bookCompleted12 = !bookCompleted12">Completed</ion-fab-button>
+            <ion-fab-button *ngIf="button13" (click)="bookCompleted13 = !bookCompleted13">Completed</ion-fab-button>
+            <ion-fab-button *ngIf="button14" (click)="bookCompleted14 = !bookCompleted14">Completed</ion-fab-button>
+            <ion-fab-button *ngIf="button15" (click)="bookCompleted15 = !bookCompleted15">Completed</ion-fab-button>
+            <ion-fab-button *ngIf="button16" (click)="bookCompleted16 = !bookCompleted16">Completed</ion-fab-button>
+            <ion-fab-button *ngIf="button17" (click)="bookCompleted17 = !bookCompleted17">Completed</ion-fab-button>
+            <ion-fab-button *ngIf="button18" (click)="bookCompleted18 = !bookCompleted18">Completed</ion-fab-button>
+            <ion-fab-button *ngIf="button19" (click)="bookCompleted19 = !bookCompleted19">Completed</ion-fab-button>
+            <ion-fab-button *ngIf="button20" (click)="bookCompleted20 = !bookCompleted20">Completed</ion-fab-button>
+            <ion-fab-button *ngIf="button21" (click)="bookCompleted21 = !bookCompleted21">Completed</ion-fab-button>
+            <ion-fab-button *ngIf="button22" (click)="bookCompleted22 = !bookCompleted22">Completed</ion-fab-button>
+            <ion-fab-button *ngIf="button23" (click)="bookCompleted13 = !bookCompleted23">Completed</ion-fab-button>
+            <ion-fab-button *ngIf="button24" (click)="bookCompleted24 = !bookCompleted24">Completed</ion-fab-button>
+            <ion-fab-button *ngIf="button25" (click)="bookCompleted25 = !bookCompleted25">Completed</ion-fab-button>
+            <ion-fab-button *ngIf="button26" (click)="bookCompleted26 = !bookCompleted26">Completed</ion-fab-button>
+            <ion-fab-button *ngIf="button27" (click)="bookCompleted27 = !bookCompleted27">Completed</ion-fab-button>
+            <ion-fab-button *ngIf="button28" (click)="bookCompleted28 = !bookCompleted28">Completed</ion-fab-button>
+            <ion-fab-button *ngIf="button29" (click)="bookCompleted29 = !bookCompleted29">Completed</ion-fab-button>
+            <ion-fab-button *ngIf="button30" (click)="bookCompleted30 = !bookCompleted30">Completed</ion-fab-button>
+        </ion-fab>
+    </div>
+    <div class="sidenav">
+        <a>Reading Status: Completed</a>
+        <a href="\assets\books\absulum\index.html" *ngIf="bookCompletedV1" target="test1"><img
+                src="/assets/books/absulum/sickrd.gif"></a>
+        <a href="\assets\books\alphabet\index.html" *ngIf="bookCompleted2" target="test1"><img
+                src="/assets/books/alphabet/alet.gif"></a>
+        <a href="\assets\books\bee\index.html" *ngIf="bookCompleted3" target="test1"><img
+                src="/assets/books/bee/begin.gif"></a>
+        <a href="\assets\books\beebf\index.html" *ngIf="bookCompleted4" target="test1"><img
+                src="/assets/books/beebf/bf1.gif"></a>
+        <a href="\assets\books\beenight\index.html" *ngIf="bookCompleted5" target="test1"><img
+                src="/assets/books/beenight/night1_448x440_f90.jpeg"></a>
+        <a href="\assets\books\beepicnic\index.html" *ngIf="bookCompleted6" target="test1"><img
+                src="/assets/books/beepicnic/picnic1_527x373.jpeg"></a>
+        <a href="\assets\books\bitaba\index.html" *ngIf="bookCompleted7" target="test1"><img
+                src="/assets/books/bitaba/bitaba2.jpeg"></a>
+        <a href="/assets/books/bravemonkey/index.html" *ngIf="bookCompleted8" target="test1"><img
+                src="/assets/books/bravemonkey/page1.gif"></a>
+        <a href="\assets\books\count\index.html" *ngIf="bookCompleted9" target="test1"><img
+                src="/assets/books/count/bunny1.gif"></a>
+        <a href="\assets\books\coyote\index.html" *ngIf="bookCompleted10" target="test1"><img
+                src="/assets/books/coyote/snail_duped.jpeg"></a>
+        <a href="\assets\books\farm\index.html" *ngIf="bookCompleted11" target="test1"><img
+                src="/assets/books/farm/farm.gif"></a>
+        <a href="\assets\books\gargoyle\index.html" *ngIf="bookCompleted12" target="test1"><img
+                src="/assets/books/gargoyle/gargoyls.gif"></a>
+        <a href="\assets\books\gingerbread\index.html" *ngIf="bookCompleted13" target="test1"><img
+                src="/assets/books/gingerbread/page9.jpeg"></a>
+        <a href="\assets\books\halloween\index.html" *ngIf="bookCompleted14" target="test1"><img
+                src="/assets/books/halloween/house.jpeg"></a>
+        <a href="\assets\books\happen\index.html" *ngIf="bookCompleted15" target="test1"><img
+                src="/assets/books/happen/pic1.jpeg"></a>
+        <a href="\assets\books\invis-allig\index.html" *ngIf="bookCompleted16" target="test1"><img
+                src="/assets/books/invis-allig/pic1b.jpeg"></a>
+        <a href="\assets\books\kitty\index.html" *ngIf="bookCompleted17" target="test1"><img
+                src="/assets/books/kitty/small.gif"></a>
+        <a href="\assets\books\lk\index.html" *ngIf="bookCompleted18" target="test1"><img
+                src="/assets/books/lk/cover128.gif"></a>
+        <a href="\assets\books\loomploy\index.html" *ngIf="bookCompleted19" target="test1"><img
+                src="/assets/books/loomploy/able.jpeg"></a>
+        <a href="\assets\books\marymakeover\index.html" *ngIf="bookCompleted20" target="test1"><img
+                src="/assets/books/marymakeover/g/page0_9.jpeg"></a>
+        <a href="\assets\books\mcfee\indexf.html" *ngIf="bookCompleted21" target="test1"><img
+                src="/assets/books/mcfee/pond_90_b.jpeg"></a>
+        <a href="\assets\books\noblegnarble\index.html" *ngIf="bookCompleted22" target="test1"><img
+                src="/assets/books/noblegnarble/1_442x525.jpeg"></a>
+        <a href="\assets\books\ollie\index.html" *ngIf="bookCompleted23" target="test1"><img
+                src="/assets/books/ollie/crab2.gif"></a>
+        <a href="\assets\books\patrick\index.html" *ngIf="bookCompleted24" target="test1"><img
+                src="/assets/books/patrick/caught.gif"></a>
+        <a href="\assets\books\pirate\index.html" *ngIf="bookCompleted25" target="test1"><img
+                src="/assets/books/pirate/1_dream.jpeg"></a>
+        <a href="\assets\books\roundbrd\15.html" *ngIf="bookCompleted26" target="test1"><img
+                src="/assets/books/roundbrd/abirdd.jpeg"></a>
+        <a href="\assets\books\wienerdog\index.html" *ngIf="bookCompleted27" target="test1"><img
+                src="/assets/books/wienerdog/page1.jpeg"></a>
+        <a href="\assets\books\wolstencroft\index.html" *ngIf="bookCompleted28" target="test1"><img
+                src="/assets/books/wolstencroft/tag_pct33.jpeg"></a>
+        <a href="\assets\books\wumplump\indexf.html" *ngIf="bookCompleted29" target="test1"><img
+                src="/assets/books/wumplump/wump1.gif"></a>
+        <a href="\assets\books\zoo\index.html" *ngIf="bookCompleted30" target="test1"><img
+                src="/assets/books/zoo/zoosign.gif"></a>
+    </div>
+    

@@ -1,0 +1,322 @@
+body	{
+	margin: 0;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: medium;
+	color: #bbb;
+	text-align: center;
+}
+p	{
+	margin: 0;
+	padding: 0;
+}
+img	{
+	border-width: 0px;
+}
+.clearer {
+	clear: both;
+	border-bottom: 1px solid #808080;
+	padding-top: 2px;
+}
+
+.pageIndex, .page20 { background-color: #022d55; }
+.page2, .page4, .page26 { background-color: #30261e; }
+.page3 { background-color: #114a2a; }
+.page5, .page10 { background-color: #3c5226; }
+.page6 { background-color: #4a4276; }
+.page7 { background-color: #133d41; }
+.page8 { background-color: #24245d; }
+.page9 { background-color: #084249; }
+.page11, .page13 { background-color: #283053; }
+.page12 { background-color: #334039; }
+.page14 { background-color: #503a04; }
+.page15 { background-color: #10557f; }
+.page16 { background-color: #262c41; }
+.page17 { background-color: #252f5f; }
+.page18 { background-color: #3f0279; }
+.page19 { background-color: #035a96; }
+.page21 { background-color: #322852; }
+.page22 { background-color: #2e2f46; }
+.page23 { background-color: #462e31; }
+.page24, .page25 { background-color: #122d68; }
+.page27 { background-color: #342869; }
+.page28 { background-color: #0c4032; }
+.page29 { background-color: #081b30; }
+
+.pagewrapper {
+	padding: 0 0 10px 0;
+}
+.bndiv {
+	height: 90px;
+	position: relative;
+	text-align: center;
+}
+.sponsor {
+	text-align: center;
+	background-color: #000;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #ccc;
+	font-size: 12px;
+	font-weight: bold;
+}
+.topnav {
+        margin-top: 8px;
+        margin-left: 20px;
+        text-align: left;
+        color: #ddd;
+        font-weight: normal;
+        font-size: medium;
+}
+.topnav a:link    {color: #ddd;}
+.topnav a:visited {color: #ddd;}
+.topnav a:hover   {color: #fff;}
+.topnav a:active  {color: #fff;}
+
+.outerwrapper {
+	width: 738px;	/* Must have fixed width to hold fixed width floats and be centered.  Width = .mainwrapper + .arrowleft/rightwrappers */
+	margin: 0 auto;
+}
+.header {
+	padding: 10px 0px 0px 0px;	/* bottom padding does not seem to work on these floats */
+}
+.titlepg2 {
+	float: left;
+	margin-bottom: 0px;
+	text-align: left;
+	font-size: large;
+	font-style: italic;
+	font-weight: bold;
+}
+.pagenum {
+	float: right;
+	margin-bottom: 0px;
+	text-align: right;
+	font-size: large;
+}
+.title {
+	font-size: 24px;
+	color: #f5d443;
+	font-weight: bold;
+	margin: 30px auto 0 auto;
+}
+.writtenby, .illustratedby {
+	margin-top: 10px;
+	color: #ddd;
+	font-size: 17px;
+	font-weight: bold;
+	font-style: italic;
+}
+.illustratedby {
+	font-size: 15px;
+	margin-top: 5px;
+	padding-bottom: 16px;
+	border-bottom: 1px solid #999;
+}
+.mainwrapper {
+	width: 602px;		/* picture width (600px) plus border */
+	float: left;
+	margin: 30px 0 20px;
+}
+.pic {
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+.pic img {
+	border: 1px solid #000;
+}
+.portrait-right {
+	width: 318px;
+	float: right;
+	text-align: right;
+}
+.storytext {
+	width: 588px;
+	height: 100px;
+	float: left;
+	margin: 10px 0 10px 0;
+}
+.storytext-p {
+	text-align: left;
+	padding: 70px 0 0 0;
+}
+.text-1st, .text {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.5em;
+	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-left: 13px;	/* compensates for arrowque image on right */
+}
+.text-1st {padding-top: 14px;}
+
+.portrait-right .text-1st, .portrait-right .text {	/* portrait overrides */
+	padding-top: 10px;
+	padding-left: 20px;
+}
+.arrowque {
+	width: 12px;
+	float: left;
+	padding-top: 54px;
+}
+.arrowque-p {
+	width: 12px;
+	position: relative;
+	top: -18px;
+	left: -20px;
+	margin-left: auto;
+	margin-right: 0;
+}
+.arrowleftwrapper, .arrowrightwrapper {
+	margin-top: 260px;
+	display: inline;        /* fixes ie double margin bug */
+}
+.arrowleftwrapper {
+	clear: both;		/* clears header floats */
+	float: left;
+	padding: 0px 20px 6px 20px;
+}
+.arrowrightwrapper {
+	padding: 0px 20px 6px 20px;
+	float: left;
+}
+.arrowrightwrapper-p {		/* for portrait */
+	width: 68px;
+	text-align: center;
+	margin-top: 260px;
+	margin-left: auto;
+	margin-right: 0;
+}
+.arrowleft, .arrowright {
+	margin: 0;
+	display: inline;		/* fixes ie double margin bug */
+}
+.textprev, .textnext {
+	margin-top: 2px;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+}
+.textprev a:link,    .textnext a:link    {color: #bbb; text-decoration: none;}
+.textprev a:visited, .textnext a:visited {color: #bbb; text-decoration: none;}
+.textprev a:hover,   .textnext a:hover   {color: #bbb; text-decoration: underline;}
+.textprev a:active,  .textnext a:active  {color: #bbb; text-decoration: underline;}
+
+.footer {
+	clear: both;
+	padding: 1px 0 10px;
+	border-top: 1px solid #808080;
+}
+.pagelinks {
+	margin-top: 5px;
+}
+.gotopage {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 11px;
+/*	margin-right: 10px;	*//* for "gotopage" as the old span on same line as links */
+	margin-bottom: 2px;
+	padding-bottom: 1px;
+}
+.pagelinks a {
+	padding: 3px 3px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+}
+.pagelinks a:link    {color: #bbb; text-decoration: underline;}
+.pagelinks a:visited {color: #aaa; text-decoration: underline;}
+.pagelinks a:hover {
+	color: #eee;
+	padding: 3px 3px;
+	text-decoration: none;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+.pagelinks a:active  {color: #eee;}
+
+.curpagelink {
+	color: #ddd;
+	padding: 3px 3px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	vertical-align: -1px;
+}
+.csolink {
+	margin-top: 20px;
+	font-weight: normal;
+	font-size: medium;
+}
+.csolink a:link    {color: #bbb;}
+.csolink a:visited {color: #aaa;}
+.csolink a:hover   {color: #eee;}
+.csolink a:active  {color: #bbb;}
+
+.authorlink, ul {
+	display: inline;
+	font-size: 15px;
+}
+.authorlink a:link    {color: #bbb;}
+.authorlink a:visited {color: #bbb;}
+.authorlink a:hover   {color: #eee;}
+.authorlink a:active  {color: #bbb;}
+
+.authorlink small {
+	color: #aaa;
+}
+ul	{
+	color: #ccc;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: inline;
+}
+li	{
+	margin: 0 0 1px 0;
+	display: inline;
+}
+.bb, li span {display: none;}
+
+#iPhone {
+	font-size: .9em;
+	color: #FBEE3D;
+	margin: 14px 0 10px;
+	border: 1px solid #FBEE3D;
+	padding: 8px 10px 8px 10px;
+}
+
+#iPhone a:link    {color: #FFC43B;}
+#iPhone a:visited {color: #FFC43B;}
+#iPhone a:hover   {color: #eee;}
+#iPhone a:active  {color: #FFC43B;}
+
+.copyright {
+	margin: 32px 0 0 0;
+	text-align: center;
+	color: #bbb;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: x-small;
+	padding-bottom: 210px;		/* used when date code is removed */
+}
+
+.copyrightlink a:link {color: #ddd;}
+.copyrightlink a:visited {color: #ddd;}
+.copyrightlink a:hover {color: #fff;}
+.copyrightlink a:active {color: #99F8FA;}
+
+.datecode {
+	margin: 20px 0 0 0;
+	text-align: center;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: x-small;
+	color: #aaa;
+}
