@@ -1,7 +1,0 @@
-{
-  "name": "inikali",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "angular"
-}
