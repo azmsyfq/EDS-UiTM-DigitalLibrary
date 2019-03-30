@@ -1,0 +1,6 @@
+npm install --save @ionic-native/sqlite-porter@4.5.3
+npm i --save @ionic-native/sqlite@4.5.3
+
+npm i --save cordova@8.0.0
+
+npm i --save ionic-angular@3.9.2

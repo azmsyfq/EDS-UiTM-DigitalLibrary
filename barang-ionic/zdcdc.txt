@@ -1,0 +1,17 @@
+keytool -exportcert -alias androiddebugkey -keystore %HOMEPATH%\.android\debug.keystore | C:\Users\blambokdsgn\fblogin\openssl\bin\openssl.exe sha1 -binary | C:\Users\blambokdsgn\fblogin\openssl\bin\openssl.exe base64
+
+V6JVjlfMC0D7YEcD53BJ5Hzu09k=
+
+keytool -list -keystore C:\Users\blambokdsgn\.android\debug.keystore
+
+androiddebugkey, Dec 20, 2018, PrivateKeyEntry,
+
+keytool -exportcert -alias androiddebugkey -keystore keytool -list -keystore C:\Users\blambokdsgn\.android\debug.keystore | C:\Users\blambokdsgn\fblogin\openssl\bin\openssl.exe sha1 -binary | C:\Users\blambokdsgn\fblogin\openssl\bin\openssl.exe base64
+
+ionic cordova plugin add cordova-plugin-facebook4 --variable APP_ID="731261047254964" --variable APP_NAME="digital-library"
+
+ionic4-facebook-login
+
+https://fir-cliexample-e41ce.firebaseapp.com/__/auth/handler
+
+https://www.facebook.com/r.phpRemove
